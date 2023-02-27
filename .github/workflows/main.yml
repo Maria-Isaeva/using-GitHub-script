@@ -16,7 +16,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: "Thanks for reporting!"
+              body: " 💕 Thanks for reporting!"
             })
       - name: Add issue to project board
         if: contains(github.event.issue.labels.*.name, 'bug')
